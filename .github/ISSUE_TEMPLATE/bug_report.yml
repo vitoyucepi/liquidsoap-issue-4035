@@ -159,9 +159,9 @@ body:
       options:
         - From official container image
         - From official packages in the release artifacts
-        - From distribution packages (Specify distribution version)
+        - From distribution packages
         - From OPAM
-        - From source/self-built (Specify details)
+        - From source/self-built
       default: 0
     validations:
       required: true
