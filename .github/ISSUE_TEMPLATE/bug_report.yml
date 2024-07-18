@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a report to help us improve
+description: Document issues or problems encountered in the software to facilitate resolution and improve functionality.
 labels:
   - bug
 body:
