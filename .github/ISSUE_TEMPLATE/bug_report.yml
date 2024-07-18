@@ -154,7 +154,8 @@ body:
   - type: dropdown
     id: installation-method
     attributes:
-      label: Specify how the software was installed.
+      label: Installation method
+      description: Specify how the software was installed.
       options:
         - From official container image
         - From official packages in the release artifacts
@@ -168,6 +169,8 @@ body:
     id: additional
     attributes:
       label: Additional Info
-      description: Additional info you want to provide such as logs, system info, similar issues, etc.
+      description: |
+        Please provide any additional information, such as logs, system info, similar issues, etc.
+        For example, specify the distribution used for distribution packages, version of OPAM, or details of the self-built process.
     validations:
       required: false
